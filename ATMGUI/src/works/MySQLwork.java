@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class MySQLwork {
 	DAO dao = new DAO();
-	Connection connection = DAO.getConnection();  //连接数据库
+	Connection connection = DAO.getConnection();
 	
 	
 	public void savingadd(String password,String name,String personid,String email,String accountType,double balance,double loanmoney) throws SQLException{
